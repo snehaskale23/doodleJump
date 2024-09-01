@@ -1,0 +1,58 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background-image: url("https://courses.cs.duke.edu/fall10/cps108/code/src/vooga/games/doodlejump/resources/images/background.png");
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.doodler{
+    background-image: url("./pngegg.png");
+    width: 87px;
+    height: 85px;
+    position: absolute;
+    z-index: 1;
+}
+
+.platform{
+    height: 15px;
+    width: 85px;
+    background-color: green;
+    border: solid 3px black;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.heading{
+    width: 400px;
+    height: 100px;
+    background: transparent;
+    margin-top: 20px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/038/334/281/non_2x/fun-colorful-doodle-background-abstract-minimalist-hand-drawn-seamless-pattern-with-bright-cute-elements-random-colorful-swirls-bundles-and-dots-simple-childish-scribble-design-vector.jpg");
+    color: #8B0000;
+}
+
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
